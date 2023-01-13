@@ -1,0 +1,47 @@
+@media only screen and (max-width: 576px){
+    .logo a {
+        justify-content: center;
+    }
+    .nav ul{
+        padding: 20px 0;
+    }
+    .nav ul li {
+        margin-right: 0;
+        margin: 0 10px;
+    }
+    .players, .blogs{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container{
+        width: 100%;
+    }
+    .blog, .courses, .header_container, .nav{
+        flex-direction: column;
+    }
+    .course{
+        width: 100%;
+    }
+   
+
+}
+@media only screen and (min-width: 577px) and (max-width: 768px){
+    .header_container {
+        width: 100%;
+        padding: 0 50px;
+    }
+    .players, .blogs{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .container{
+        width: 100%;
+    }
+    .blog{
+        flex-direction: column;
+    }
+    .courses {
+        flex-wrap: wrap;
+    }
+    
+   
+
+}
